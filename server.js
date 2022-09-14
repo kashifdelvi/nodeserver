@@ -180,7 +180,7 @@ const client = new MongoClient(uri, {
 });
 
 const app = express();
-const PORT = 9191;
+const PORT = 8080;
 
 app.use(express.json());
 app.use(express.urlencoded());
@@ -193,7 +193,7 @@ client.connect(err => {
 })
 
 const db = client.db('test');
-client.close();
+// client.close();
 
 
 function getHeaderFromToken(token) {
