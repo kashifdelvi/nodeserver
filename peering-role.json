@@ -1,0 +1,14 @@
+{
+    "Name": "AtlasPeering/217fef00-54a9-4643-b754-693f9dafa487/appsvc_linux_centralus/horos",
+    "IsCustom": true,
+    "Description": "Grants MongoDB access to manage peering connections on network /subscriptions/217fef00-54a9-4643-b754-693f9dafa487/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Network/virtualNetworks/horos",
+    "Actions": [
+        "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/read",
+        "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/write",
+        "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/delete",
+        "Microsoft.Network/virtualNetworks/peer/action"
+    ],
+    "AssignableScopes": [
+        "/subscriptions/217fef00-54a9-4643-b754-693f9dafa487/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Network/virtualNetworks/horos"
+    ]
+}
